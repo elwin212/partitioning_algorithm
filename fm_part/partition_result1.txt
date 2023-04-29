@@ -1,0 +1,5 @@
+Benchmark: ibm03.Net  Seed: 1682796457(System Time in seconds)  Init Cutset: 17339  Final Cutset: 1983  Improvement percentage: 88.5634%   Time: 5613.28ms  LeftSide:11568, RightSide:11568,Passes: 18
+Benchmark: ibm03.Net  Seed: 1682796780(System Time in seconds)  Init Cutset: 17418  Final Cutset: 2003  Improvement percentage: 88.5004%   Time: 614.066ms  LeftSide:11568, RightSide:11568,Passes: 31
+Benchmark: ibm03.Net  Seed: 1682797112(System Time in seconds)  Init Cutset: 17436  Final Cutset: 3082  Improvement percentage: 82.3239%   Time: 299.2ms  LeftSide:11567, RightSide:11569,Passes: 11
+Benchmark: ibm03.Net  Seed: 1682797277(System Time in seconds)  Init Cutset: 17535  Final Cutset: 2068  Improvement percentage: 88.2064%   Time: 348.728ms  LeftSide:11569, RightSide:11567,Passes: 13
+Benchmark: ibm03.Net  Seed: 1682797340(System Time in seconds)  Init Cutset: 17310  Final Cutset: 2366  Improvement percentage: 86.3316%   Time: 335.837ms  LeftSide:11569, RightSide:11567,Passes: 10

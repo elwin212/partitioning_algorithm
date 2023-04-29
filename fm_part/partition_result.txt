@@ -1,0 +1,3 @@
+Benchmark: ibm01.net  Seed: 1682368018(System Time in seconds)  Init Cutset: 9159  Final Cutset: 773  Improvement percentage: 91.5602%   Time: 3664.93ms  LeftSide:6375, RightSide:6377,Passes: 9
+Benchmark: ibm01.net  Seed: 1682795697(System Time in seconds)  Init Cutset: 9232  Final Cutset: 542  Improvement percentage: 94.1291%   Time: 3698.58ms  LeftSide:6375, RightSide:6377,Passes: 12
+Benchmark: ibm01.net  Seed: 1682795925(System Time in seconds)  Init Cutset: 9246  Final Cutset: 644  Improvement percentage: 93.0348%   Time: 124.797ms  LeftSide:6376, RightSide:6376,Passes: 11
