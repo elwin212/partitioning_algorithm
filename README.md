@@ -1,7 +1,7 @@
 # fmpart
 FM project
-This is implementation of Fiduccia Mattheyses partitioning algorithm.
-The benchmark is ISPD98 Circuit Benchmark, these are some testbenches(download link).
+This is implementation of Fiduccia Mattheyses partitioning algorithm using doubly linked-list
+I'm using ISPD98 Circuit Benchmark for testing, these are some testbenches(download link).
 
 ibm01:https://vlsicad.ucsd.edu/UCLAWeb/cheese/circuits/ibm01.tar.gz
 ibm02:https://vlsicad.ucsd.edu/UCLAWeb/cheese/circuits/ibm02.tar.gz
