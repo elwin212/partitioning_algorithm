@@ -37,20 +37,19 @@ int main()
         cout << "Invalid input, program exit." << endl;
         exit(0);
      }
-    //    fstream file;
-    //    char buffer[256];
-    //    file.open(inputname, ios::in);
-    //    if(!file){
-    //        cout << "Failed to open the file." << endl;
-    //        exit(0);
-    //    }
-    string  inputname = "ibm01.Net";
+    
+    string  folderName = "testbench/";
+
+    /*      testbench file name here       */ 
+    string  fileName = "ibm03.net";
+    
+    string filePath = folderName + fileName;
     char name[] = "partition_result.txt";
     double time;
     //init the graph parameters
     Parthgraph hg;
     QueryPerformanceCounter(&nBeginTime);  // start timer
-    hg.getgraph(inputname);
+    hg.getgraph(filePath);
     hg.initgains();
     hg.part();
     QueryPerformanceCounter(&nEndTime);    // stop timer
@@ -70,7 +69,7 @@ int main()
     else {
         char string[100];
         hg.print(string);
-        myresult << "Benchmark: " << inputname << "  ";
+        myresult << "Benchmark: " << fileName << "  ";
         myresult << "Seed: " << hg.currTime() << "(System Time in seconds)" << "  ";
         myresult << "Init Cutset: " << initcut << "  ";
         myresult << "Final Cutset: " << hg.cutset() << "  ";

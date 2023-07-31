@@ -61,7 +61,7 @@ void Parthgraph::getgraph(string filename){
 
 	fr = fopen(filename.c_str(), "r");
 	if (!fr) {
-		error("Can not open input file ", filename);
+		error("Can not open input file, maybe there is typo in file name or the file does not exist.", filename);		
 	}
 	
 	//fscanf(fr, "%*d %*d %d %d %d", &numnets, &numCells, &padoffset); //for scanf function %*d allow us to ignore

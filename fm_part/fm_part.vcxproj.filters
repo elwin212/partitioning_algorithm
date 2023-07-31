@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="標頭檔\dlinkedlist">
+      <UniqueIdentifier>{982c8d94-8088-4e27-8d89-4381b3ee25a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\graph">
+      <UniqueIdentifier>{c8f2e915-7068-445b-823b-9d15196a38df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="fm_part.cpp">
@@ -26,11 +32,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="hgraph.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
     <ClInclude Include="dlinkedlist.h">
-      <Filter>標頭檔</Filter>
+      <Filter>標頭檔\dlinkedlist</Filter>
+    </ClInclude>
+    <ClInclude Include="hgraph.h">
+      <Filter>標頭檔\graph</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
