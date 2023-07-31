@@ -21,6 +21,7 @@ You can use the following links to download the testbenches for testing the prog
 
 1. Download and extract the program files.
 2. Compile the program to build the executable.
-3. Place the testbench files in the same directory as the executable or specify the file paths as input parameters.
-4. Run the program, and it will perform the Fiduccia-Mattheyses partitioning algorithm on the provided testbenches.
-5. The program will generate a txt file named `partition_result` where the output of the partitioning will be written.
+3. Place the testbench files under the "testbench" directory as the executable or specify the file paths as input parameters.
+4. In main function, change the `fileName` accordingly.
+5. Run the program, and it will perform the Fiduccia-Mattheyses partitioning algorithm on the provided testbenches.
+6. The program will generate a txt file named `partition_result` where the output of the partitioning will be written.
