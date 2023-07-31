@@ -44,8 +44,8 @@ int main()
     //        cout << "Failed to open the file." << endl;
     //        exit(0);
     //    }
-string  inputname = "ibm03.Net";
-    char name[] = "partition_result1.txt";
+    string  inputname = "ibm01.Net";
+    char name[] = "partition_result.txt";
     double time;
     //init the graph parameters
     Parthgraph hg;
