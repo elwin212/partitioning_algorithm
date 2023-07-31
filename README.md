@@ -19,7 +19,7 @@ You can use the following links to download the testbenches for testing the prog
 
 ## How to Use the Program
 
-1. Download and extract the program files.
+1. Download and extract the program files and open in Visual Studio.
 2. Compile the program to build the executable.
 3. Place the testbench files under the "testbench" directory as the executable or specify the file paths as input parameters.
 4. In main function, change the `fileName` accordingly.
